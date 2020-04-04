@@ -1,0 +1,4 @@
+1) Create an empty "build" folder in this directory.
+2) Navigate to the "build" folder in the command line and execute this line:
+	cmake -DCMAKE_TOOLCHAIN_FILE=../../scripts/buildsystems/vcpkg.cmake -DCMAKE_GENERATOR_PLATFORM=x64 ..
+3) You can now build and run the project from Visual Studio.
